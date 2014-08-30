@@ -1,0 +1,22 @@
+a:link, a:visited{
+	text-decoration:none;
+	color:rgb(0,0,200);
+}
+
+.post-excerpt a:link, .post-excerpt a:visited{
+	color:black;
+}
+
+.post-excerpt a:hover{
+	background:red;
+}
+
+.post-meta-data{
+	border-top:1px solid $light-gray;
+	padding-top:0.5em;
+	margin-top:0.5em;
+}
+
+.main-nav .active{
+	font-weight:bold;
+}

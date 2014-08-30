@@ -1,0 +1,36 @@
+
+.main-nav{
+	margin-top:7em;
+}
+
+.main-nav ul{
+	padding-left:0em;
+}
+
+.contact-info{
+	// border-top:1px solid $light-gray;
+	// border-bottom:1px solid $light-gray;
+	// padding:1em 0em;
+}
+
+.sub-page-nav ul, .author-links{
+	padding-left:0em;
+	list-style:none;
+}
+
+
+
+.sub-page-nav li:first-child{
+	-webkit-column-span:all;
+	border-bottom:1px solid $light-gray;
+}
+
+.sub-page-nav a:link{
+	display:block;
+}
+
+
+
+.post-excerpt{
+	margin-bottom:2em;
+}

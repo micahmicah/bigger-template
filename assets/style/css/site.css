@@ -832,4 +832,80 @@ or wrap each row of columns in a <div class="row"> */
   width: 0;
   height: 0; }
 
+h1 {
+  font-size: 1em; }
+
+p, li {
+  line-height: 1.4em;
+  font-size: 18px; }
+
+p, li, h1, h2, h3, h4, h5, h6 {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility; }
+
+.intro, .author-links li, .sub-page-nav ul li, .post-excerpt h3 {
+  font-size: 4.5em;
+  font-family: times, serif;
+  font-weight: normal;
+  line-height: 1em;
+  -webkit-hyphens: auto; }
+  @media only screen and (max-width: 767px) {
+    .intro, .author-links li, .sub-page-nav ul li, .post-excerpt h3 {
+      font-size: 2em;
+      line-height: 1.125em; } }
+
+.post-excerpt h3 {
+  margin-bottom: 0em; }
+
+.contact-info li {
+  font-family: monospace;
+  color: #646464;
+  font-size: 1em; }
+
+.post-excerpt p {
+  margin-bottom: 0em; }
+
+.post-meta-data {
+  margin-top: 0em;
+  font-family: monospace;
+  font-size: 1em; }
+
+.main-nav {
+  margin-top: 7em; }
+
+.main-nav ul {
+  padding-left: 0em; }
+
+.sub-page-nav ul, .author-links {
+  padding-left: 0em;
+  list-style: none; }
+
+.sub-page-nav li:first-child {
+  -webkit-column-span: all;
+  border-bottom: 1px solid #f0f0f0; }
+
+.sub-page-nav a:link {
+  display: block; }
+
+.post-excerpt {
+  margin-bottom: 2em; }
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #0000c8; }
+
+.post-excerpt a:link, .post-excerpt a:visited {
+  color: black; }
+
+.post-excerpt a:hover {
+  background: red; }
+
+.post-meta-data {
+  border-top: 1px solid #f0f0f0;
+  padding-top: 0.5em;
+  margin-top: 0.5em; }
+
+.main-nav .active {
+  font-weight: bold; }
+
 /*# sourceMappingURL=site.css.map */
